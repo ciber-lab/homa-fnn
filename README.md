@@ -5,7 +5,7 @@
 ## **Table of Contents**
 1. [Introduction](#introduction)
 2. [Implementation](#implementation)
-3. [Data collection protocol] (#Data collection protocol)
+3. [Data collection protocol](#protocol)
 4. [Dataset](#dataset) ([download](https://drive.google.com/drive/folders/1jrGqgwpBh1hD354zGkpxY7JTZTe13QgY?usp=sharing))
 5. [FNN model](#Models)
 6. [Tutorials](#tutorials)
@@ -45,7 +45,8 @@ Please cite the article if you use the dataset, model or method(s), or find the 
 
 **Please stay tuned! The detailed description of the implementation is coming soon**
 
-## **Data collection protocol**
+## **Protocol**
+The data collection protocol was:
 
 <img src="images/protocol.jpg" alt="Data collection protocol" width="840" align="middle"/>
 
@@ -69,16 +70,15 @@ Figure shows the Empatica E4, wrist wearable device. Manufactured by Empatica In
 - Heart rate (HR)
     - Recording device: Actiheart 5 and Empatica E4
     - Sampling frequency: 1 Hz
-
-### Time-domain features
-
-### Frequency-domain features
-
 ### Dataset statisctics
 
 The dataset contains physiological signals from 25 participants while flying a drone in outsdoor environment. A brief statistics of the dataset is shown in the following figure.
-
 <img src="" alt="Dataset" width="840" align="middle"/>
+
+### Time-domain features
+A total number of 13 time-domain features were extracted from EDA, ST, ECG and HR. Which are maximum, minimum, maximum slope, mean, median, skewness, kurtosis, standard deviation, variance, area under the curve, approximate entropy, sample entropy, and zero crossing.
+### Frequency-domain features
+Time-domain signals were converted to frequency-domain using Fast Fourier transform. A total of 13 frequency-domain features were extracted from the converted signal. Which are average phase, average magnitude, total energy, spectral distance, maximum frequency, median frequency, spectral entropy, maximum power spectrum, power bandwidth, spectral kurtosis (not applicable to HR signal), spectral skewness (not applicable to HR signal), spectral variation, and fundamental frequency. 
 
 ### Download the dataset
 
