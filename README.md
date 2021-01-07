@@ -9,6 +9,7 @@
 4. [Dataset](#dataset) ([download](https://drive.google.com/drive/folders/1jrGqgwpBh1hD354zGkpxY7JTZTe13QgY?usp=sharing))
 5. [FNN model](#Models)
 6. [Tutorials](#tutorials)
+7. [Institutional Review Board (IRB)](#IRB)
 
 ## **Introduction**
 
@@ -51,7 +52,7 @@ The data collection protocol was:
 <img src="images/protocol.jpg" alt="Data collection protocol" width="840" align="middle"/>
 
 ## **Dataset**
-
+This dataset consists of different time-series physiological signals (i.e., Electrocardiogram, Electrodarmal Activities, Skin Temperature, Heart Rate) collected during and outdoor and virtual reality 5 minutes long drone flying experiments. A total of 25 participants (19 male, 6 female) of 25~30 years old from Texas A&M University, participated in the data collection.
 ### Wearable devices
 Figure shows the Actiheart 5, chest wearable device. Manufactured by CamNtech Ltd. <img src="images/actiheart.jpg" alt=" Actiheart 5" width="840" align="middle"/>
 
@@ -70,6 +71,7 @@ Figure shows the Empatica E4, wrist wearable device. Manufactured by Empatica In
 - Heart rate (HR)
     - Recording device: Actiheart 5 and Empatica E4
     - Sampling frequency: 1 Hz
+    
 ### Dataset statisctics
 
 The dataset contains physiological signals from 25 participants while flying a drone in outsdoor environment. A brief statistics of the dataset is shown in the following figure.
@@ -79,6 +81,19 @@ The dataset contains physiological signals from 25 participants while flying a d
 A total number of 13 time-domain features were extracted from EDA, ST, ECG and HR. Which are maximum, minimum, maximum slope, mean, median, skewness, kurtosis, standard deviation, variance, area under the curve, approximate entropy, sample entropy, and zero crossing.
 ### Frequency-domain features
 Time-domain signals were converted to frequency-domain using Fast Fourier transform. A total of 13 frequency-domain features were extracted from the converted signal. Which are average phase, average magnitude, total energy, spectral distance, maximum frequency, median frequency, spectral entropy, maximum power spectrum, power bandwidth, spectral kurtosis (not applicable to HR signal), spectral skewness (not applicable to HR signal), spectral variation, and fundamental frequency. 
+
+### Type of dataset
+# Raw dataset
+There are 4 time-series raw signals (i.e., ECG, EDA, HR, ST) for all 25 participants in both outdoor and virtual reality. Each session duration for each participants were 5 minutes. Original label data is with 1 Hz frequency manually annotated by third-party observer.
+# Filtered
+Raw time series physiological signals were preprocessed to replace missing values and outliers. Digital filters were also applied to remove noises from the signals. Original label data is with 1 Hz frequency manually annotated by third-party observer.
+# Extracted feature with labels
+For each time series signal, a sliding analysis window of $'t=3~8'$ seconds with 1-second increment is used to extract 13 time-domain and 13 frequency-domain features. The final label of each analysis window is obtained considering the presence or absence of a drone accident event in the corresponding prediction window ($'p=3~8'$) that immediately follows. In total, 36 datasets of different combinations of analysis windows and prediction horizons ($'t=3~8'$ seconds and $'p=3~8'$ seconds, with 1-second increments). 
+
+### Final Dataset for analysis
+After selecting best $'t-p'$ top features were ranked using ReliefF and training dataset was balanced using synthetic minority oversampling technique (SMOTE).
+
+<img src="images/smote.jpg" alt="Scatter plots of original data (left), and transformed data (right)" width="840" align="middle"/>
 
 ### Download the dataset
 
@@ -90,7 +105,7 @@ To download this dataset please fill out the [Dataset Download Request Form](htt
 
 This paper presents below approaches to predict an accident:
 
-<img src="" alt="Methods/Approaches" width="840" align="middle"/>
+<img src="images/Method.jpg" alt="Sample feature extraction and labeling using a t-second analysis window and a p-second prediction window." width="840" align="middle"/>
 
 ## **Results**
 
@@ -98,7 +113,7 @@ This paper presents below approaches to predict an accident:
 
 - The training (t) and prediction (p) window as 8 seconds and 6 seconds respectively:
 
-<img src="" alt="Results" width="840" align="middle"/>
+<img src="images/Results.png" alt="Final analysis" width="840" align="middle"/>
 
 
 ## **Models**
@@ -113,3 +128,14 @@ The models used for analysis available on the following links:
 ## **Tutorials**
 
 **Please stay tuned! The detailed step-by-step tutorials are coming soon.**
+
+## **IRB**
+Title: Study to understand drone operator’s physiological state
+IRB# IRB2019-0782D, Date: 07/25/2019
+Texas A&M University, College Station
+
+## **Contact**
+For more information please contact:
+[Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/)
+Department of Construction Science,
+Texas A&M University, College Station, TX.
