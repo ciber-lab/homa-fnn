@@ -5,10 +5,10 @@
 ## **Table of Contents**
 1. [Introduction](#introduction)
 2. [Implementation](#implementation)
-4. [Data collection protocol] (#protocol)
-3. [Dataset](#dataset) ([download](https://drive.google.com/drive/folders/1jrGqgwpBh1hD354zGkpxY7JTZTe13QgY?usp=sharing))
-4. [FNN model](#Models)
-5. [Tutorials](#tutorials)
+3. [Data collection protocol] (#Data collection protocol)
+4. [Dataset](#dataset) ([download](https://drive.google.com/drive/folders/1jrGqgwpBh1hD354zGkpxY7JTZTe13QgY?usp=sharing))
+5. [FNN model](#Models)
+6. [Tutorials](#tutorials)
 
 ## **Introduction**
 
@@ -82,7 +82,7 @@ The dataset contains physiological signals from 25 participants while flying a d
 
 ### Download the dataset
 
-To download this dataset please fill out the [Dataset Download Request Form](https://docs.google.com/forms/d/e/1FAIpQLSe-47QX3it0NLLQsbtcpbNO8A0nBkw7yJ5Soq6ZfHzsATy1UQ/viewform).
+To download this dataset please fill out the [Dataset Download Request Form](https://docs.google.com/forms/d/e/1FAIpQLSe-47QX3it0NLLQsbtcpbNO8A0nBkw7yJ5Soq6ZfHzsATy1UQ/viewform?usp=sf_link).
 
 **Note:** These datasets are strictly for research purposes. Can not be redistributed to anyone else or put anywhere for public access. Once research purposes are completed, please destroy the original files. The participants identifying information (if any) can not be revealed publicly or in a research paper/presentation.
 
