@@ -1,6 +1,7 @@
 # **Feed-forward Neural Network (FNN) for Drone Accident Prediction from Physiological Signals**
 
-<img src="images/main.jpg" alt="Demo" width="840" align="middle"/>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=y2O3Fd25zK4" target="_blank"><img src="http://img.youtube.com/vi/y2O3Fd25zK4/0.jpg" 
+alt="Sample Video" width="640" border="10" /></a>
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
@@ -14,6 +15,8 @@
 ## **Introduction**
 
 Unmanned aerial vehicles (UAVs), commonly known as drones, are a major game-changer in construction and civil infrastructure projects, and are rapidly transforming the traditional way of conducting tasks such as surveying, safety inspection, and progress monitoring. While the industry is still years away from implementing autonomous drones on the jobsite, human operators still play a critical role in ensuring safe drone missions in compliance with operational protocols such as those of the United States Federal Aviation Administration (FAA) and the European Union Aviation Safety Agency (EASA). Research shows that operator’s stress and fatigue are among the leading causes of drone accidents. Our previous work suggests that physiological data collected by nonintrusive wearable devices can accurately predict drone operator’s performance, mental workload, and stress. In this research, we use data from real-world and virtual reality flight experiments to design an artificial neural network (ANN) model coupled with a robust feature engineering (feature extraction and selection) scheme for exploring the complex interactions between drone operator’s time-series physiological signals (e.g., electrocardiogram, electrodermal activity, heart rate, skin temperature) as explanatory variables, and the likelihood of an imminent drone accident. The findings of this study will lay the foundation for future work in creating automated intervention systems for drone operations, ultimately leading to safer jobsites.
+
+<img src="images/main.jpg" alt="Demo" width="840" align="middle"/>
 
 ### Article
 
@@ -88,10 +91,10 @@ There are 4 time-series raw signals (i.e., ECG, EDA, HR, ST) for all 25 particip
 # Filtered
 Raw time series physiological signals were preprocessed to replace missing values and outliers. Digital filters were also applied to remove noises from the signals. Original label data is with 1 Hz frequency manually annotated by third-party observer.
 # Extracted feature with labels
-For each time series signal, a sliding analysis window of $'t=3~8'$ seconds with 1-second increment is used to extract 13 time-domain and 13 frequency-domain features. The final label of each analysis window is obtained considering the presence or absence of a drone accident event in the corresponding prediction window ($'p=3~8'$) that immediately follows. In total, 36 datasets of different combinations of analysis windows and prediction horizons ($'t=3~8'$ seconds and $'p=3~8'$ seconds, with 1-second increments). 
+For each time series signal, a sliding analysis window of t=3~8 seconds with 1-second increment is used to extract 13 time-domain and 13 frequency-domain features. The final label of each analysis window is obtained considering the presence or absence of a drone accident event in the corresponding prediction window (p=3~8) that immediately follows. In total, 36 datasets of different combinations of analysis windows and prediction horizons (t=3~8 seconds and p=3~8 seconds, with 1-second increments). 
 
 ### Final Dataset for analysis
-After selecting best $'t-p'$ top features were ranked using ReliefF and training dataset was balanced using synthetic minority oversampling technique (SMOTE).
+After selecting best t-p top features were ranked using ReliefF and training dataset was balanced using synthetic minority oversampling technique (SMOTE).
 
 <img src="images/smote.jpg" alt="Scatter plots of original data (left), and transformed data (right)" width="840" align="middle"/>
 
