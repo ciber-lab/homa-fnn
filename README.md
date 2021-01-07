@@ -91,7 +91,7 @@ There are 4 time-series raw signals (i.e., ECG, EDA, HR, ST) for all 25 particip
 # Filtered
 Raw time series physiological signals were preprocessed to replace missing values and outliers. Digital filters were also applied to remove noises from the signals. Original label data is with 1 Hz frequency manually annotated by third-party observer.
 # Extracted feature with labels
-For each time series signal, a sliding analysis window of t=3~8 seconds with 1-second increment is used to extract 13 time-domain and 13 frequency-domain features. The final label of each analysis window is obtained considering the presence or absence of a drone accident event in the corresponding prediction window (p=3~8) that immediately follows. In total, 36 datasets of different combinations of analysis windows and prediction horizons (t=3~8 seconds and p=3~8 seconds, with 1-second increments). 
+For each time series signal, a sliding analysis window of t=3-8 seconds with 1-second increment is used to extract 13 time-domain and 13 frequency-domain features. The final label of each analysis window is obtained considering the presence or absence of a drone accident event in the corresponding prediction window (p=3-8) that immediately follows. In total, 36 datasets of different combinations of analysis windows and prediction horizons (t=3-8 seconds and p=3-8 seconds, with 1-second increments). 
 
 ### Final Dataset for analysis
 After selecting best t-p top features were ranked using ReliefF and training dataset was balanced using synthetic minority oversampling technique (SMOTE).
@@ -134,11 +134,16 @@ The models used for analysis available on the following links:
 
 ## **IRB**
 Title: Study to understand drone operator’s physiological state
+
 IRB# IRB2019-0782D, Date: 07/25/2019
+
 Texas A&M University, College Station
 
 ## **Contact**
 For more information please contact:
+
 [Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/)
+
 Department of Construction Science,
+
 Texas A&M University, College Station, TX.
