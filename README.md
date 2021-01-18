@@ -1,6 +1,6 @@
 # **Feed-forward Neural Network (FNN) for Drone Accident Prediction from Physiological Signals**
 
-<img src="images/homa.gif" alt="Outdoor (Left) and Virtual Reality (right) experiment" width="840" align="middle"/>
+<img src="images/homa.gif" alt="Outdoor (Left) and Virtual Reality (right) experiment" width="1000" align="middle"/>
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
@@ -77,7 +77,7 @@ Figure shows the Empatica E4, wrist wearable device. Manufactured by Empatica In
 ### Dataset statisctics
 
 The dataset contains physiological signals from 25 participants while flying a drone in outsdoor environment. A brief statistics of the dataset is shown in the following figure.
-<img src="" alt="Dataset" width="840" align="middle"/>
+<img src="" alt="Dataset" width="600" align="middle"/>
 
 ### Time-domain features
 A total number of 13 time-domain features were extracted from EDA, ST, ECG and HR. Which are maximum, minimum, maximum slope, mean, median, skewness, kurtosis, standard deviation, variance, area under the curve, approximate entropy, sample entropy, and zero crossing.
@@ -95,7 +95,7 @@ For each time series signal, a sliding analysis window of t=3-8 seconds with 1-s
 ### Final Dataset for analysis
 After selecting best t-p top features were ranked using ReliefF and training dataset was balanced using synthetic minority oversampling technique (SMOTE).
 
-<img src="images/smote.jpg" alt="Scatter plots of original data (left), and transformed data (right)" width="840" align="middle"/>
+<img src="images/smote.jpg" alt="Scatter plots of original data (left), and transformed data (right)" width="600" align="middle"/>
 
 ### Download the dataset
 
@@ -115,7 +115,7 @@ This paper presents below approaches to predict an accident:
 
 - The training (t) and prediction (p) window as 8 seconds and 6 seconds respectively:
 
-<img src="images/Results.png" alt="Final analysis" width="840" align="middle"/>
+<img src="images/Results.png" alt="Final analysis" width="600" align="middle"/>
 
 
 ## **Models**
