@@ -1,7 +1,6 @@
 # **Feed-forward Neural Network (FNN) for Drone Accident Prediction from Physiological Signals**
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=y2O3Fd25zK4" target="_blank"><img src="http://img.youtube.com/vi/y2O3Fd25zK4/0.jpg" 
-alt="Sample Video" width="640" border="10" /></a>
+<img src="images/homa.gif" alt="Outdoor (Left) and Virtual Reality (right) experiment" width="840" align="middle"/>
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
@@ -52,7 +51,7 @@ Please cite the article if you use the dataset, model or method(s), or find the 
 ## **Protocol**
 The data collection protocol was:
 
-<img src="images/protocol.jpg" alt="Data collection protocol" width="840" align="middle"/>
+<img src="images/protocol.jpg" alt="Data collection protocol" width="600" align="middle"/>
 
 ## **Dataset**
 This dataset consists of different time-series physiological signals (i.e., Electrocardiogram, Electrodarmal Activities, Skin Temperature, Heart Rate) collected during and outdoor and virtual reality 5 minutes long drone flying experiments. A total of 25 participants (19 male, 6 female) of 25~30 years old from Texas A&M University, participated in the data collection.
@@ -108,7 +107,7 @@ To download this dataset please fill out the [Dataset Download Request Form](htt
 
 This paper presents below approaches to predict an accident:
 
-<img src="images/Method.jpg" alt="Sample feature extraction and labeling using a t-second analysis window and a p-second prediction window." width="840" align="middle"/>
+<img src="images/Method.jpg" alt="Sample feature extraction and labeling using a t-second analysis window and a p-second prediction window." width="600" align="middle"/>
 
 ## **Results**
 
