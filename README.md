@@ -1,7 +1,6 @@
 # **Feed-forward Neural Network (FNN) for Drone Accident Prediction from Physiological Signals**
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=y2O3Fd25zK4" target="_blank"><img src="http://img.youtube.com/vi/y2O3Fd25zK4/0.jpg" 
-alt="Sample Video" width="640" border="10" /></a>
+<img src="images/homa.gif" alt="Outdoor (Left) and Virtual Reality (right) experiment" width="840" align="middle"/>
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
@@ -16,7 +15,7 @@ alt="Sample Video" width="640" border="10" /></a>
 
 Unmanned aerial vehicles (UAVs), commonly known as drones, are a major game-changer in construction and civil infrastructure projects, and are rapidly transforming the traditional way of conducting tasks such as surveying, safety inspection, and progress monitoring. While the industry is still years away from implementing autonomous drones on the jobsite, human operators still play a critical role in ensuring safe drone missions in compliance with operational protocols such as those of the United States Federal Aviation Administration (FAA) and the European Union Aviation Safety Agency (EASA). Research shows that operator’s stress and fatigue are among the leading causes of drone accidents. Our previous work suggests that physiological data collected by nonintrusive wearable devices can accurately predict drone operator’s performance, mental workload, and stress. In this research, we use data from real-world and virtual reality flight experiments to design an artificial neural network (ANN) model coupled with a robust feature engineering (feature extraction and selection) scheme for exploring the complex interactions between drone operator’s time-series physiological signals (e.g., electrocardiogram, electrodermal activity, heart rate, skin temperature) as explanatory variables, and the likelihood of an imminent drone accident. The findings of this study will lay the foundation for future work in creating automated intervention systems for drone operations, ultimately leading to safer jobsites.
 
-<img src="images/main.jpg" alt="Outdoor (Left) and Virtual Reality (right) experiment" width="840" align="middle"/>
+<img src="images/main.jpg" alt="Outdoor (Left) and Virtual Reality (right) experiment" width="600" align="middle"/>
 
 ### Article
 
@@ -52,14 +51,14 @@ Please cite the article if you use the dataset, model or method(s), or find the 
 ## **Protocol**
 The data collection protocol was:
 
-<img src="images/protocol.jpg" alt="Data collection protocol" width="840" align="middle"/>
+<img src="images/protocol.jpg" alt="Data collection protocol" width="600" align="middle"/>
 
 ## **Dataset**
 This dataset consists of different time-series physiological signals (i.e., Electrocardiogram, Electrodarmal Activities, Skin Temperature, Heart Rate) collected during and outdoor and virtual reality 5 minutes long drone flying experiments. A total of 25 participants (19 male, 6 female) of 25~30 years old from Texas A&M University, participated in the data collection.
 ### Wearable devices
-Figure shows the Actiheart 5, chest wearable device. Manufactured by CamNtech Ltd. <img src="images/actiheart.jpg" alt=" Actiheart 5" width="840" align="middle"/>
+Figure shows the Actiheart 5, chest wearable device. Manufactured by CamNtech Ltd. <img src="images/actiheart.jpg" alt=" Actiheart 5" width="600" align="middle"/>
 
-Figure shows the Empatica E4, wrist wearable device. Manufactured by Empatica Inc. <img src="images/empatica.jpg" alt="Empatica E4" width="840" align="middle"/>
+Figure shows the Empatica E4, wrist wearable device. Manufactured by Empatica Inc. <img src="images/empatica.jpg" alt="Empatica E4" width="600" align="middle"/>
 
 ### Time-series signals
 - Electrocardiogram (ECG or EKG)
@@ -78,7 +77,7 @@ Figure shows the Empatica E4, wrist wearable device. Manufactured by Empatica In
 ### Dataset statisctics
 
 The dataset contains physiological signals from 25 participants while flying a drone in outsdoor environment. A brief statistics of the dataset is shown in the following figure.
-<img src="" alt="Dataset" width="840" align="middle"/>
+<img src="" alt="Dataset" width="600" align="middle"/>
 
 ### Time-domain features
 A total number of 13 time-domain features were extracted from EDA, ST, ECG and HR. Which are maximum, minimum, maximum slope, mean, median, skewness, kurtosis, standard deviation, variance, area under the curve, approximate entropy, sample entropy, and zero crossing.
@@ -96,7 +95,7 @@ For each time series signal, a sliding analysis window of t=3-8 seconds with 1-s
 ### Final Dataset for analysis
 After selecting best t-p top features were ranked using ReliefF and training dataset was balanced using synthetic minority oversampling technique (SMOTE).
 
-<img src="images/smote.jpg" alt="Scatter plots of original data (left), and transformed data (right)" width="840" align="middle"/>
+<img src="images/smote.jpg" alt="Scatter plots of original data (left), and transformed data (right)" width="600" align="middle"/>
 
 ### Download the dataset
 
@@ -108,7 +107,7 @@ To download this dataset please fill out the [Dataset Download Request Form](htt
 
 This paper presents below approaches to predict an accident:
 
-<img src="images/Method.jpg" alt="Sample feature extraction and labeling using a t-second analysis window and a p-second prediction window." width="840" align="middle"/>
+<img src="images/Method.jpg" alt="Sample feature extraction and labeling using a t-second analysis window and a p-second prediction window." width="600" align="middle"/>
 
 ## **Results**
 
@@ -116,7 +115,7 @@ This paper presents below approaches to predict an accident:
 
 - The training (t) and prediction (p) window as 8 seconds and 6 seconds respectively:
 
-<img src="images/Results.png" alt="Final analysis" width="840" align="middle"/>
+<img src="images/Results.png" alt="Final analysis" width="600" align="middle"/>
 
 
 ## **Models**
