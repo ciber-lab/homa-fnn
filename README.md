@@ -39,8 +39,7 @@ DOI: https://doi.org/10.1108/SASBE-12-2020-0181
 
 **Please cite the article if you use the dataset, model or method(s), or find the article useful in your research. Thank you!**
 
-
-## **Implementation*
+## **Implementation**
 
 ### Dependencies
 - `Scikit-learn`
