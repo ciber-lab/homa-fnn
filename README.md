@@ -141,14 +141,12 @@ Texas A&M University, College Station
 
 ## **References**
 <a id="1">[1]</a> 
-Sakib, M.N., Chaspari, T. and Behzadan, A.H., 2021.
-A feedforward neural network for drone accident prediction from physiological signals. 
-Smart and Sustainable Built Environment. DOI: https://doi.org/10.1108/SASBE-12-2020-0181
+Sakib, M.N., Chaspari, T. and Behzadan, A.H., 2021. A feedforward neural network for drone accident prediction from physiological signals. 
+*Smart and Sustainable Built Environment*. DOI: https://doi.org/10.1108/SASBE-12-2020-0181
 
 <a id="2">[2]</a> 
-Sakib, M.N., Chaspari, T. and Behzadan, A.H., 2021.
-Physiological data models to understand the effectiveness of drone operation training in immersive virtual reality. 
-Journal of Computing in Civil Engineering, 35(1), p. 04020053. DOI: https://doi.org/10.1061/(ASCE)CP.1943-5487.0000941
+Sakib, M.N., Chaspari, T. and Behzadan, A.H., 2021. Physiological data models to understand the effectiveness of drone operation training in immersive virtual reality. 
+*Journal of Computing in Civil Engineering*, 35(1), p. 04020053. DOI: https://doi.org/10.1061/(ASCE)CP.1943-5487.0000941
 
 ## **Contact**
 For more information please contact:
