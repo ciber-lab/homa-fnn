@@ -136,11 +136,9 @@ The models used for analysis available on the following links:
 **Please stay tuned! The detailed step-by-step tutorials are coming soon.**
 
 ## **IRB**
-Title: Study to understand drone operator’s physiological state
+**Title:** Study to understand drone operator’s physiological state
 
-IRB# IRB2019-0782D, Date: 07/25/2019
-
-Texas A&M University, College Station
+**IRB#** IRB2019-0782D, **Date:** 07/25/2019, Texas A&M University, College Station
 
 ## **References**
 <a id="1">[1]</a> 
