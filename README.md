@@ -24,9 +24,7 @@ Md Nazmus Sakib, Theodora Chaspari, Amir H. Behzadan \
 Journal: Smart and Sustainable Built Environment (SASBE), 2021, ISSN: 2046-6099
 DOI: https://doi.org/10.1108/SASBE-12-2020-0181
 
-Please cite the article if you use the dataset, model or method(s), or find the article useful in your research. Thank you!
-
-### LaTeX citation:
+**LaTeX citation:**
 
 @article{Sakib2021,
     author  = {Md Nazmus Sakib and Theodora Chaspari and Amir H. Behzadan},
@@ -39,9 +37,9 @@ Please cite the article if you use the dataset, model or method(s), or find the 
     url = {https://doi.org/10.1108/SASBE-12-2020-0181}
     }
 
+**Please cite the article if you use the dataset, model or method(s), or find the article useful in your research. Thank you!**
 
-## **Implementation**
-
+## **Implementation*
 ### Dependencies
 - `Scikit-learn`
 - `numpy`
