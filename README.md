@@ -34,7 +34,10 @@ Please cite the article if you use the dataset, model or method(s), or find the 
     journal = {Smart and Sustainable Built Environment},
     volume  = {ahead-of-print},
     year    = {2021},
-    pages   = {ahead-of-print}
+    pages   = {ahead-of-print},
+    doi = {10.1108/SASBE-12-2020-0181},
+    url = {https://doi.org/10.1108/SASBE-12-2020-0181}
+    }
 
 
 ## **Implementation**
