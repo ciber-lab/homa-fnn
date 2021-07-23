@@ -1,4 +1,4 @@
-# **Feed-forward Neural Network (FNN) for Drone Accident Prediction from Physiological Signals**
+# **Feedforward Neural Network (FNN) for Drone Accident Prediction from Physiological Signals**
 
 <img src="images/homa.gif" alt="Outdoor (Left) and Virtual Reality (right) experiment" width="840" align="middle"/>
 
