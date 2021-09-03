@@ -158,13 +158,14 @@ The models used for analysis available on the following links:
 ## **Contact**
 For more information please contact:
 
-[Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/)
-
-Department of Construction Science, Texas A&M University, College Station, TX.
+[Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/), Department of Construction Science, Texas A&M University, College Station, TX.
 
 ## **Credit**
 Developed and maintained by:
 [Md Nazmus Sakib](https://sites.google.com/view/mnsakib-site/home), S.M.ASCE, G.S.M.IEEE
+
 Ph.D. Student, Department of Multidisciplinary Engineering, College of Engineering
+
 Research Assistant, Connected Informatics and Built Environment Research (CIBER) Lab, Dept. of Construction Science
+
 Texas A&M University, College Station
