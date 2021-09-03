@@ -10,6 +10,9 @@
 5. [FNN model](#Models)
 6. [Tutorials](#tutorials)
 7. [Institutional Review Board (IRB)](#IRB)
+8. [References](#References)
+9. [Contact](#Contact)
+10. [Credit](#Credit)
 
 ## **Introduction**
 
@@ -79,7 +82,7 @@ Figure shows the Empatica E4, wrist wearable device. Manufactured by Empatica In
     
 ### Dataset description
 
-The dataset contains physiological signals from 25 participants (19 males, 6 females) of 25-30 years of age, which was conducted in two sessions, namely OD and VR. Each session comprised two tasks (easy and complex). For each participant, the order of the OD and VR sessions was randomized; some participated in the OD session first, and some participated in the VR session first. Overall, 10 participants performed the VR session first while the remaining performed the OD session first. For outdoor experiments, three drone models (i.e., Parrot Bebop 2, Parrot Anafi, Tello Quadcopter) with similar control functions but slightly different speeds were used. The drone model used in the VR environment was developed with similar control functions and simulated speed of Parrot Bebop 2. [[2]](#2)
+The dataset contains physiological signals from 25 participants (19 males, 6 females) of 25-30 years of age, which was conducted in two sessions, namely OD and VR. Each session comprised two tasks (easy and complex). For each participant, the order of the OD and VR sessions was randomized; some participated in the OD session first, and some participated in the VR session first. Overall, 10 participants performed the VR session first while the remaining performed the OD session first. For outdoor experiments, three drone models (i.e., Parrot Bebop 2, Parrot Anafi, Tello Quadcopter) with similar control functions but slightly different speeds were used. The drone model used in the VR environment was developed with similar control functions and simulated speed of Parrot Bebop 2. [[2]](#2),[[3]](#3) 
 <img src="images/Data description.png" alt="Dataset description [1]" width="600" align="middle"/>
 
 ### Time-domain features
@@ -141,12 +144,16 @@ The models used for analysis available on the following links:
 
 ## **References**
 <a id="1">[1]</a> 
-Sakib, M.N., Chaspari, T. and Behzadan, A.H., 2021. A feedforward neural network for drone accident prediction from physiological signals. 
+[Sakib, M.N.](https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl=en), Chaspari, T. and Behzadan, A.H., 2021. A feedforward neural network for drone accident prediction from physiological signals. 
 *Smart and Sustainable Built Environment*. DOI: https://doi.org/10.1108/SASBE-12-2020-0181
 
 <a id="2">[2]</a> 
-Sakib, M.N., Chaspari, T. and Behzadan, A.H., 2021. Physiological data models to understand the effectiveness of drone operation training in immersive virtual reality. 
+[Sakib, M.N.](https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl=en), Chaspari, T. and Behzadan, A.H., 2021. Physiological data models to understand the effectiveness of drone operation training in immersive virtual reality. 
 *Journal of Computing in Civil Engineering*, 35(1), p. 04020053. DOI: https://doi.org/10.1061/(ASCE)CP.1943-5487.0000941
+
+<a id="3">[3]</a> 
+[Sakib, M.N.](https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl=en), 2019. Wearable Technology to Assess the Effectiveness of Virtual Reality Training for Drone Operators. 
+*Master's thesis*, Texas A&M University. Available electronically from: https://hdl.handle.net/1969.1/189173
 
 ## **Contact**
 For more information please contact:
@@ -154,3 +161,10 @@ For more information please contact:
 [Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/)
 
 Department of Construction Science, Texas A&M University, College Station, TX.
+
+## **Credit**
+Developed and maintained by:
+[Md Nazmus Sakib](https://sites.google.com/view/mnsakib-site/home), S.M.ASCE, G.S.M.IEEE
+Ph.D. Student, Department of Multidisciplinary Engineering, College of Engineering
+Research Assistant, Connected Informatics and Built Environment Research (CIBER) Lab, Dept. of Construction Science
+Texas A&M University, College Station
