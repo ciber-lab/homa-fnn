@@ -12,7 +12,6 @@
 7. [Institutional Review Board (IRB)](#IRB)
 8. [References](#References)
 9. [Contact](#Contact)
-10. [Credit](#Credit)
 
 ## **Introduction**
 
@@ -20,10 +19,12 @@ Unmanned aerial vehicles (UAVs), commonly known as drones, are a major game-chan
 
 <img src="images/main.jpg" alt="Outdoor (Left) and Virtual Reality (right) experiment" width="600" align="middle"/>
 
-### Article
+### Related Article
+
+*Please cite below article if you use the dataset, model or method(s), or find the article useful in your research. Thank you!*
 
 [**A feedforward neural network for drone accident prediction from physiological signals**](https://doi.org/10.1108/SASBE-12-2020-0181) \
-Md Nazmus Sakib, Theodora Chaspari, Amir H. Behzadan \
+[Md Nazmus Sakib](https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl=en), [Theodora Chaspari](https://scholar.google.com/citations?user=po1Qa-MAAAAJ&hl=en) and [Amir H. Behzadan](https://scholar.google.com/citations?user=hNo6KncAAAAJ&hl=en) \
 Journal: Smart and Sustainable Built Environment (SASBE), 2021, ISSN: 2046-6099
 DOI: https://doi.org/10.1108/SASBE-12-2020-0181
 
@@ -40,7 +41,6 @@ DOI: https://doi.org/10.1108/SASBE-12-2020-0181
     url = {https://doi.org/10.1108/SASBE-12-2020-0181}
     }
 
-**Please cite the article if you use the dataset, model or method(s), or find the article useful in your research. Thank you!**
 
 ## **Implementation**
 
@@ -107,7 +107,7 @@ After selecting best t-p top features were ranked using ReliefF and training dat
 
 To download this dataset please fill out the [Dataset Download Request Form](https://docs.google.com/forms/d/e/1FAIpQLSe-47QX3it0NLLQsbtcpbNO8A0nBkw7yJ5Soq6ZfHzsATy1UQ/viewform?usp=sf_link).
 
-**Note:** These datasets are strictly for research purposes. Can not be redistributed to anyone else or put anywhere for public access. Once research purposes are completed, please destroy the original files. The participants identifying information (if any) can not be revealed publicly or in a research paper/presentation.
+**Note:** These datasets are strictly for research purposes only. Can not be redistributed to anyone else or put anywhere for public access. Once research purposes are completed, please destroy the original files. The participants identifying information (if any) can not be revealed publicly or in a research paper/presentation.
 
 ## **Methods/Approaches**
 
@@ -131,11 +131,11 @@ The models used for analysis available on the following links:
 - FNN-v1
 - FNN-v2
 
-**Please stay tuned! Links to download the models well be added soon.**
+*Please stay tuned! Links to download the models well be added soon.*
 
 ## **Tutorials**
 
-**Please stay tuned! The detailed step-by-step tutorials are coming soon.**
+*Please stay tuned! The detailed step-by-step tutorials are coming soon.*
 
 ## **IRB**
 **Title:** Study to understand drone operator’s physiological state
@@ -144,11 +144,11 @@ The models used for analysis available on the following links:
 
 ## **References**
 <a id="1">[1]</a> 
-[Sakib, M.N.](https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl=en), Chaspari, T. and Behzadan, A.H., 2021. A feedforward neural network for drone accident prediction from physiological signals. 
+[Sakib, M.N.](https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl=en), [Chaspari, T.](https://scholar.google.com/citations?user=po1Qa-MAAAAJ&hl=en) and [Behzadan, A.H.](https://scholar.google.com/citations?user=hNo6KncAAAAJ&hl=en), 2021. A feedforward neural network for drone accident prediction from physiological signals. 
 *Smart and Sustainable Built Environment*. DOI: https://doi.org/10.1108/SASBE-12-2020-0181
 
 <a id="2">[2]</a> 
-[Sakib, M.N.](https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl=en), Chaspari, T. and Behzadan, A.H., 2021. Physiological data models to understand the effectiveness of drone operation training in immersive virtual reality. 
+[Sakib, M.N.](https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl=en), [Chaspari, T.](https://scholar.google.com/citations?user=po1Qa-MAAAAJ&hl=en) and [Behzadan, A.H.](https://scholar.google.com/citations?user=hNo6KncAAAAJ&hl=en), 2021. Physiological data models to understand the effectiveness of drone operation training in immersive virtual reality.
 *Journal of Computing in Civil Engineering*, 35(1), p. 04020053. DOI: https://doi.org/10.1061/(ASCE)CP.1943-5487.0000941
 
 <a id="3">[3]</a> 
@@ -156,16 +156,7 @@ The models used for analysis available on the following links:
 *Master's thesis*, Texas A&M University. Available electronically from: https://hdl.handle.net/1969.1/189173
 
 ## **Contact**
-For more information please contact:
+For more information please contact: [Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/), Department of Construction Science, Texas A&M University, College Station, TX.
 
-[Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/), Department of Construction Science, Texas A&M University, College Station, TX.
 
-## **Credit**
-Developed and maintained by:
-[Md Nazmus Sakib](https://sites.google.com/view/mnsakib-site/home), S.M.ASCE, G.S.M.IEEE
-
-Ph.D. Student, Department of Multidisciplinary Engineering, College of Engineering
-
-Research Assistant, Connected Informatics and Built Environment Research (CIBER) Lab, Dept. of Construction Science
-
-Texas A&M University, College Station
+*Developed and maintained by: [Md Nazmus Sakib](https://sites.google.com/view/mnsakib-site/home), S.M.ASCE, G.S.M.IEEE; Ph.D. Student in [Department of Multidisciplinary Engineering](https://engineering.tamu.edu/mtde/index.html); Research Assistant in [Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/), [Department of Construction Science](https://cosc.arch.tamu.edu/); Texas A&M University, College Station.*
