@@ -6,7 +6,7 @@
 1. [Introduction](#introduction)
 2. [Implementation](#implementation)
 3. [Data collection protocol](#protocol)
-4. [Dataset](#dataset) ([download](https://drive.google.com/drive/folders/1jrGqgwpBh1hD354zGkpxY7JTZTe13QgY?usp=sharing))
+4. [Dataset](#dataset) ([download](https://o365coloradoedu-my.sharepoint.com/:f:/r/personal/ambe3060_colorado_edu/Documents/github-ciber-lab/homa-fnn?csf=1&web=1&e=yV0GyX))
 5. [FNN model](#Models)
 6. [Tutorials](#tutorials)
 7. [Institutional Review Board (IRB)](#IRB)
@@ -105,9 +105,7 @@ After selecting best t-p top features were ranked using ReliefF and training dat
 
 ### Download the dataset
 
-To download this dataset please fill out the [Dataset Download Request Form](https://docs.google.com/forms/d/e/1FAIpQLSe-47QX3it0NLLQsbtcpbNO8A0nBkw7yJ5Soq6ZfHzsATy1UQ/viewform?usp=sf_link).
-
-**Note:** These datasets are strictly for research purposes only. Can not be redistributed to anyone else or put anywhere for public access. Once research purposes are completed, please destroy the original files. The participants identifying information (if any) can not be revealed publicly or in a research paper/presentation.
+To download this dataset please send an email to us. Please note that all of our datasets are strictly for research purposes only, and cannot be redistributed to anyone else or put anywhere for public access. Once research purposes are completed, please destroy the original files. The participants identifying information (if any) should not be revealed publicly or in a research paper/presentation.
 
 ## **Methods/Approaches**
 
@@ -156,7 +154,4 @@ The models used for analysis available on the following links:
 *Master's thesis*, Texas A&M University. Available electronically from: https://hdl.handle.net/1969.1/189173
 
 ## **Contact**
-For more information please contact: [Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/), Department of Construction Science, Texas A&M University, College Station, TX.
-
-
-*Developed and maintained by: [Md Nazmus Sakib](https://sites.google.com/view/mnsakib-site/home), S.M.ASCE, G.S.M.IEEE; Ph.D. Student in [Department of Multidisciplinary Engineering](https://engineering.tamu.edu/mtde/index.html); Research Assistant in [Connected Informatics and Built Environment Research (CIBER) Lab](http://people.tamu.edu/~abehzadan/), [Department of Construction Science](https://cosc.arch.tamu.edu/); Texas A&M University, College Station.*
+For more information please contact: [Connected Informatics and Built Environment Research (CIBER) Lab](https://sites.google.com/view/ciberlab), University of Colorado, Boulder, CO.
