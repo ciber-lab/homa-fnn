@@ -103,9 +103,9 @@ After selecting best t-p top features were ranked using ReliefF and training dat
 
 <img src="images/smote.jpg" alt="Scatter plots of original data (left), and transformed data (right)" width="600" align="middle"/>
 
-### Download the dataset
+### Dataset disclaimer
 
-To download this dataset please send an email to us. Please note that all of our datasets are strictly for research purposes only, and cannot be redistributed to anyone else or put anywhere for public access. Once research purposes are completed, please destroy the original files. The participants identifying information (if any) should not be revealed publicly or in a research paper/presentation.
+Please note that all of our datasets are strictly for research purposes only, and cannot be redistributed to anyone else or put anywhere for public access. Once research purposes are completed, please destroy the original files. The participants identifying information (if any) should not be revealed publicly or in a research paper/presentation.
 
 ## **Methods/Approaches**
 
@@ -124,16 +124,11 @@ This paper presents below approaches to predict an accident: [[1]](#1)
 
 ## **Models**
 
-The models used for analysis available on the following links:
-
-- FNN-v1
-- FNN-v2
-
-*Please stay tuned! Links to download the models well be added soon.*
+Please stay tuned!
 
 ## **Tutorials**
 
-*Please stay tuned! The detailed step-by-step tutorials are coming soon.*
+Please stay tuned!
 
 ## **IRB**
 **Title:** Study to understand drone operator’s physiological state
