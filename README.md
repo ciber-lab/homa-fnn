@@ -6,7 +6,7 @@
 1. [Introduction](#introduction)
 2. [Implementation](#implementation)
 3. [Data collection protocol](#protocol)
-4. [Dataset](#dataset) ([download](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/Ekoi5LGDJQpAkWW0EqWOoScB5AyJZlDMFwJtn2BSqoGVfA?e=Ytc4cU))
+4. [Dataset](#dataset)
 5. [FNN model](#Models)
 6. [Tutorials](#tutorials)
 7. [Institutional Review Board (IRB)](#IRB)
@@ -60,7 +60,7 @@ The data collection protocol was:
 <img src="images/protocol.jpg" alt="Data collection protocol" width="600" align="middle"/>
 
 ## **Dataset**
-This dataset consists of different time-series physiological signals (i.e., Electrocardiogram, Electrodarmal Activities, Skin Temperature, Heart Rate) collected during and outdoor and virtual reality 5 minutes long drone flying experiments. A total of 25 participants (19 male, 6 female) of 25~30 years old from Texas A&M University, participated in the data collection.
+This dataset consists of different time-series physiological signals (i.e., Electrocardiogram, Electrodarmal Activities, Skin Temperature, Heart Rate) collected during and outdoor and virtual reality 5 minutes long drone flying experiments. A total of 25 participants (19 male, 6 female) of 25~30 years old from Texas A&M University, participated in the data collection. The dataset is available on this [OneDrive folder](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/EsiLaSYkGdNHoFcBRx9agQUByGehkQTnz8BxAGVirKEmcg?e=h8dr5S).
 ### Wearable devices
 Figure shows the Actiheart 5, chest wearable device. Manufactured by CamNtech Ltd. <img src="images/actiheart.jpg" alt=" Actiheart 5" width="600" align="middle"/>
 
