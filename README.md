@@ -6,7 +6,7 @@
 1. [Introduction](#introduction)
 2. [Implementation](#implementation)
 3. [Data collection protocol](#protocol)
-4. [Dataset](#dataset) ([download](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/Ekoi5LGDJQpAkWW0EqWOoScB5AyJZlDMFwJtn2BSqoGVfA?e=Ytc4cU)
+4. [Dataset](#dataset) ([download](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/Ekoi5LGDJQpAkWW0EqWOoScB5AyJZlDMFwJtn2BSqoGVfA?e=Ytc4cU))
 5. [FNN model](#Models)
 6. [Tutorials](#tutorials)
 7. [Institutional Review Board (IRB)](#IRB)
