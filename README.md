@@ -83,6 +83,7 @@ Figure shows the Empatica E4, wrist wearable device. Manufactured by Empatica In
 ### Dataset description
 
 The dataset contains physiological signals from 25 participants (19 males, 6 females) of 25-30 years of age, which was conducted in two sessions, namely OD and VR. Each session comprised two tasks (easy and complex). For each participant, the order of the OD and VR sessions was randomized; some participated in the OD session first, and some participated in the VR session first. Overall, 10 participants performed the VR session first while the remaining performed the OD session first. For outdoor experiments, three drone models (i.e., Parrot Bebop 2, Parrot Anafi, Tello Quadcopter) with similar control functions but slightly different speeds were used. The drone model used in the VR environment was developed with similar control functions and simulated speed of Parrot Bebop 2. [[2]](#2),[[3]](#3) 
+
 <img src="images/Data description.png" alt="Dataset description [1]" width="600" align="middle"/>
 
 ### Time-domain features
